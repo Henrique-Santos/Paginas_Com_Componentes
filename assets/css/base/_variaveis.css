@@ -1,0 +1,19 @@
+/* root é para que as variaveis possam ser acessadas, de qualquer documento. */
+:root {
+    --amarelo: #FFCB47;
+    --amarelo-transparente: #FFCB473D;
+    --branco: #FFFFFF;
+    --cinza: #909090;
+    --preto: #202020;
+    --preto-transparente: #0000000F;
+
+    --familia-corpo: 'Montserrat', sans-serif;
+    --familia-titulo-destaque: 'Elsie Swash Caps', serif;
+
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
+}
