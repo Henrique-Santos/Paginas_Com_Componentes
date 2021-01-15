@@ -1,3 +1,6 @@
+/* A idéia desse arquivo é que todas as páginas o possuam, pois ele é a estilização 
+básica que deve conter em toda a página */
+
 @import url(_variaveis.css);
 @import url(_reset.css);
 
@@ -26,7 +29,7 @@ body {
     
     color: var(--preto);
 
-    display: block;
+    display: block; /* Para quebrar uma linha */
 
     margin-top: .75rem;
     margin-bottom: .75rem;

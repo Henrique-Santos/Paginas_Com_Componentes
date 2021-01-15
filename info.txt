@@ -1,0 +1,15 @@
+Criando um Componente.
+
+Tem estilos ou layouts, que se repetem em uma página, então ao invéz te ter uma estilização para cada elemento, e termos códigos repetidos, podemos criar um componente. Após a componentização de um elemento não precisamos mais nos preocupar, com as estilização, apenas a semantica.
+
+Durante o processo de desenvolvimento de uma página e quando vamos componentizar algo, precisamos entender e diferenciar componentes.
+
+Alguns dos passos para diferenciar componentes é isolar partes diferentes do que queremos componentizar e ver se são usadas em outros lugares. Se sim, quer dizer que dentro do componente existem outros possíveis componentes, e o que queremos extrair na verdade é apenas a "casca". Se não, então o conjunto inteiro forma um componente, tanto o conteúdo quanto o que contém essas informações.
+
+EMMET
+
+O EMMET possui a facilidade de fazer tarefas repetidas como fechar tags automaticamente, criar blocos de repetição com poucas instruções (por exemplo, ul>li*6 vai gerar uma tag ul com 6 li dentro) e até mesmo estruturas super complexas.
+
+Intellisense
+
+O CSS Intellisense (neste caso: HTML CSS Support) dá sugestões para nós quando vamos colocar alguma classe dentro de uma tag, assim não precisamos lembrar EXATAMENTE o nome de uma classe. Isso evita problemas quando precisamos trabalhar com inúmeras classes CSS.

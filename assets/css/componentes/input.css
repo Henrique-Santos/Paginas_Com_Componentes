@@ -7,7 +7,9 @@
 
     padding: 1.75rem;
 
-    box-sizing: border-box;
+/* Garante que o tamanho definido no width seja absoluto, sem somar com nenhum 
+outro valor, como por exemplo o padding */
+    box-sizing: border-box; 
 
     margin-bottom: 1rem;
 
